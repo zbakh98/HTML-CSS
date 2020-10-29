@@ -29,3 +29,12 @@ function getHeight (elem){
 		var height = elem.scrollHeight + 'px';
 		return height;
 }
+
+function showTooltip(event){
+       var mousePositionX = event.pageX;
+       var mousePositionY = event.pageY;
+       var x = event.target;
+       
+       $('.tooltiptext').css('left', mousePositionX);
+       $('.tooltiptext').css('top', mousePositionY);
+}
