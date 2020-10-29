@@ -38,3 +38,12 @@ function showTooltip(event){
        $('.tooltiptext').css('left', mousePositionX);
        $('.tooltiptext').css('top', mousePositionY);
 }
+
+function etoile(a){
+  var table = [4,3,5];
+  var s = "";
+  for( i=0;i<table[a];i++){        
+    s+="<i class='fas fa-star'></i>"              
+  }
+  return s;
+}

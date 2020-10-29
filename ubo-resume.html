@@ -44,33 +44,50 @@
             <dl>
                 <dt><h3>Expérience</h3></dt>
                 <dd>
-                    <b>07/2019 - 08/2019</b> Stage d'application <button onclick="myFunction(event)">dflkmdk </button>
+                    <b>07/2019 - 08/2019</b> Stage d'application <button onclick="myFunction(event)">plus </button>
                     <div class="desc">
                         fjskfdslkdjfds fidsljfds,kl fsdkjfj dsil,f ksdjfjdslk
                     </div>
                 </dd>
                 
                 <div>
-                    <dt><h3>Compétences</h3> </dt> <button onclick="myFunction(event)">dflkmdk </button>
+                    <dt><h3>Compétences</h3> </dt> <button onclick="myFunction(event)">plus </button>
                     <div class="desc">
                         <p></p>
-                        <dd class="tooltip" onmousemove="showTooltip(event)">HTML <span class="tooltiptext">Hypertext Markup Language</span></dd>
-                        <dd class="tooltip" onmousemove="showTooltip(event)">CSS <span class="tooltiptext">Cascading Style Sheets</span></dd>
-                        <dd class="tooltip" onmousemove="showTooltip(event)">PHP <span class="tooltiptext"> Hypertext Preprocessor</span></dd>
+                        <dd class="tooltip" onmousemove="showTooltip(event)">HTML <script>document.write(etoile(0));</script><span class="tooltiptext">Hypertext Markup Language</span></dd>
+                        <dd class="tooltip" onmousemove="showTooltip(event)">CSS  <script>document.write(etoile(1));</script><span class="tooltiptext">Cascading Style Sheets</span></dd>
+                        <dd class="tooltip" onmousemove="showTooltip(event)">PHP  <script>document.write(etoile(2));</script><span class="tooltiptext">Hypertext Preprocessor</span></dd>
 
-                    </div>
+                        <div class="cont" style="display: flex;">
+                            <div class="vl" style="margin-right:4px;"></div>
+                            <div class="vll" style="display: flex; " >
+                                <script>
+                                    var comp=["HTML","CSS","PHP"];
+                                    var rate=[4,3,5]
+                                    for( var i=0;i< rate.length;i++){
+                                        document.write("<div style='width:5vw;margin-right:2vw'>");
+                                    for( j=0;j<rate[i];j++){
+                                        document.write("<div class='caro' style='width: 5vw;height: 10px; background-color: black;' ></div>");
+                                    }
+                                    document.write("<p style='font-size:1.5vw;transform:rotate(180deg);'>"+comp[i]+"</p></div>");
+                                }
+                                </script>
+                            </div>
+                            </div>
+                            <div class="vl2"></div>
+                            <div>
+                                <dt><h3>Formations</h3></dt> <button onclick="myFunction(event)">plus </button>
+                                <div class="desc">
+                                    <dd><b>10/2020 - present</b> UBO</dd>
+                                    <dd><b>2016 - present</b> ENSAT</dd>
+                                </div>
+                            </div>
+                            </div>                    
                 </div>
                 
-                <div>
-                    <dt><h3>Formations</h3></dt> <button onclick="myFunction(event)">dflkmdk </button>
-                    <div class="desc">
-                        <dd><b>10/2020 - present</b> UBO</dd>
-                        <dd><b>2016 - present</b> ENSAT</dd>
-                    </div>
-                </div>
 
                 <div>
-                    <dt><h3>Langues</h3></dt> <button onclick="myFunction(event)">dflkmdk </button>
+                    <dt><h3>Langues</h3></dt> <button onclick="myFunction(event)">plus </button>
                     <div class="desc">
                         <dd>Anglais</dd>
                         <dd>Francais</dd>
